@@ -1,0 +1,36 @@
+
+
+
+a=9000
+
+export b=100
+
+
+
+
+a is a normal variable
+b is env variable
+
+
+normal variable exist only in proces , it wont get passed in child process 
+while env variable get passed in chid process automatically 
+
+
+
+
+wrting 
+a=900
+export b=500
+
+a is normal temporary var 
+b is env temporary var 
+
+
+
+to make them permanat configure them in a bashrc file that loads when terminal opens 
+
+
+
+still a is normal var 
+b is env var 
+but they persisit if a new terminal opens 

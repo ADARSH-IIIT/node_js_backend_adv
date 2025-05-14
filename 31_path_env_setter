@@ -1,0 +1,10 @@
+currentdirectory=$(pwd) && echo "PATH=$PATH:$currentdirectory" >> "$HOME/.bashrc"
+
+
+
+
+# s1 ==> fetch current directiry 
+
+#s2 ====> update path var in .bashrc file 
+
+#s3 append current path seperated by : in path var in bashrc file directly 

@@ -1,0 +1,53 @@
+
+
+
+diff btw  a.txt   and ./a.txt
+
+
+
+
+there is vimp and large diffff
+
+
+
+when we type  
+
+
+a.txt in terminal 'it treat it as command to execute 
+
+
+when we type   ./a.txt 
+
+
+it tries to execute a file named a.txt that exist in same folder 
+
+
+
+
+
+both are so difff 
+
+
+
+./a.txt  if this file has permission to execute it will execute this 
+
+
+
+a.txt 
+
+check is it a alias --> fun --> hash ----> any executable file in path written PATH var only 
+
+let say a.txt exist in . current folder 
+
+
+but not in any folder of path contained var 
+
+
+if we write 
+
+a.txt 
+if it not a alias , fun , hash or if it not exiat in any of folder specified in path var , then it say  a.txt command not found 
+
+
+
+./a.txt tries to execute a fie named a.txt present in sam folde 

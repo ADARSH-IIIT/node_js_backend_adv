@@ -1,0 +1,40 @@
+1st
+backend mein api keys ko hard code na krke hum parent process ke env mein set kr dete hain 
+
+
+
+
+when a process runs , it needs so many data that is stored in env var 
+
+
+eg 
+
+
+terminal 
+terminal ek process hai
+iske bhi env var hotte honge 
+
+
+
+
+to see env var of terminal we can write 
+env 
+in terminal 
+it will give all key val pair of env variable 
+
+
+what are there use 
+there are 2 vimp env var of terminal 
+PATH
+HOME
+
+
+
+home stores location of logged in user 
+/home/adarsh ===> after this everything i mine 
+PATH ====> vimp var , when ever we write any file name like abcd.exe 
+first it checkes is it a cmd , alias , function , or hashed 
+then it thinks it will be a executable file that is placed in pour comp
+instead of searching it in whole comp 
+it searches for all location in path var 
+we will see this in deatil in 2-3 pages later

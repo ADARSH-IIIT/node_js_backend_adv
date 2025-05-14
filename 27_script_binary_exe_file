@@ -1,0 +1,98 @@
+
+
+
+
+any file is a exectable file , bas uske pass execute hone ki permission honi chahiye 
+
+
+
+
+how to give execute permission 
+
+chmod +x file.txt
+
+
+
+now it is execuutable 
+
+
+
+
+executable files are of 2 types 
+
+
+1 script
+2 binary files 
+in linux binary files are extension less or it can have any extension '
+in window they have extension of .exe
+
+
+
+yeh extension bas ek cont=vention h 
+extension less or any file of any extension can be executed 
+
+
+
+
+script file conatins script of bash 
+like cd 
+ls if for etc etc 
+
+
+
+binary file contains instruction in 01 format , like we get binary file after running c++
+
+
+
+even a file like abcd with no extension 
+if we write ls in it 
+chmod +x file
+
+./file 
+
+it will run that ls command in terminal 
+
+
+
+
+still acche convenstion ke liye 
+
+
+.sh use krte h 
+uske bina bhi sari script file run kr jayegi 
+
+
+
+
+in linux 
+script file .sh
+binary file   extension less
+
+
+
+in windows 
+script file any format
+binary file  .exe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+to execute any file in linux 
+
+
+just chmod +x file.txt  
+change execute permission to true 
+
+./file.txt   ============================+++>   file get executed as child process in terminal
+

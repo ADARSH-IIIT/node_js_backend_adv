@@ -1,0 +1,94 @@
+
+
+
+command   adarsh
+
+           ./adarsh 
+
+1st one is cmd 
+another is we are ttrying to execute a file 
+
+
+
+how command works in terminal 
+
+
+
+s1 ===> it checks is it a alias that is loaded in terminal 
+
+s2 ===>  it checks is it a loaded function 
+
+
+
+s3  =====> it checks is it in hash , we will know what is it 
+
+
+s4 ====>  then it thinks okay it is a executable file , that exist in out system 
+now it will search this in system 
+but only in those path that out PATH env holds seperated by : 
+
+
+
+
+we have runn  testing.txt 
+              ./testing.txt
+
+in 2nd case we are trying to execute a file exist in same folder    that      . dor is vimp  
+
+in 1st one 
+
+first it is her any alias like 
+
+alias testing.txt=ls
+
+or 
+myfun()testing.txt{
+ .... 
+}
+
+
+then it cjecks in has h
+
+
+
+
+
+
+as by name hash means hashing 
+
+if it has previously found that file in any of path var pats it saves it in hash map , so that it dont need to re search again 
+
+if not found it saerch testing.txt executable file in all apth of PATH var 
+if found then it will run it 
+
+
+
+
+
+
+
+
+imp cmds 
+
+
+
+hash ====> to see all hashed locations , previous ly found 
+
+
+
+
+
+type  cmd 
+
+returns type of cmd alias function , executable or what 
+
+
+
+which file.txt
+
+it will return it exist in which PATH var path 
+
+inthat location we will find the executable of current commd
+
+
+

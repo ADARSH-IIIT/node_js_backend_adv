@@ -1,0 +1,50 @@
+if we want to create a new env var 
+permananrt
+
+
+we should write 
+
+
+export varname=100
+in any bashrc file and load it using source 
+
+
+echo $varname    in terminal 
+in child process like node js we have process.env.varname
+
+
+
+now if any var name like PATH HOME  already exist 
+then it si not mandatory to use export 
+
+
+PATH=newval
+HOME=newval
+will our work 
+we can just update the path 
+
+
+
+
+
+
+
+to add any new path 
+
+
+
+PATH=$PATH:/new/path/location:new/path2 
+like this in any bashrc file 
+
+
+in any bashrc or in terminal access env var using $varname
+
+this will update path var 
+
+
+
+exact use of path var we will know when we read about how terminal run a command 
+
+
+for now remember , PATH= : : : 
+holds multiple path seperated by color : 

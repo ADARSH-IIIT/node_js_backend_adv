@@ -1,0 +1,50 @@
+
+
+
+env var 
+
+
+they holds some data that will exist in our computer , they exist when that process runs 
+
+let say when we deploy our server in vercel they ask for env var 
+
+
+
+they set those env var for termianl that runs node server.js 
+
+
+terminal is parent rocess 
+node server.js is child process 
+as child process can acess , env var of parent , we access imp api keys etc etc that are env vsr of terminal and use them in our code 
+
+
+
+in js 
+here is a object that holds all data related to the node js process 
+
+process.env holds all env var 
+process.argv holds arguamnrts 
+
+
+
+
+
+if we change any env var in child it wont change in parent 
+because all env var are inherited , copy 
+
+
+
+
+
+
+
+var1=900
+export var2=1000
+
+
+theere is a node js script that pronts process.env.var1 , process.env.var2
+
+output null 1000 
+becuse a is a normal var , they wont be passed inside child 
+even if we change process.env.b = 900000
+it reain same in that terminal 

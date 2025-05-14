@@ -34,3 +34,16 @@ note for operation of two or more var (()) double bracket is must
 this is called scripting 
 
 multiple command in one line seperate by ;
+
+
+
+echo hello >> a.txt
+
+
+append hello in new  last line 
+
+
+echo hello > a.txt 
+
+replace all content of a.txt with just hello 
+a hello word will be ther in first line 
