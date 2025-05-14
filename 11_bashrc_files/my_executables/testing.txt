@@ -1,0 +1,1 @@
+echo this command is written in executable file in my execulatable , this path is added in path variable

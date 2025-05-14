@@ -1,0 +1,55 @@
+✅ What is an Operating System (OS)?
+An Operating System (OS) is system software that acts as an interface between a computer's hardware and the user. It manages hardware resources, provides essential services, and enables application software to run.
+
+
+
+| Function                         | Description                                                                                   |
+| -------------------------------- | --------------------------------------------------------------------------------------------- |
+| **1. Process Management**        | Manages running programs (processes), handles multitasking, prioritization, and scheduling.   |
+| **2. Memory Management**         | Allocates and tracks memory use for processes. Ensures efficient and safe use of RAM.         |
+| **3. File System Management**    | Manages storage, directories, file access, permissions, and organization.                     |
+| **4. Device Management**         | Interfaces with hardware like printers, disks, keyboards through drivers.                     |
+| **5. User Interface**            | Provides CLI (Command Line Interface) or GUI (Graphical User Interface) for user interaction. |
+| **6. Security & Access Control** | Manages user authentication and protects data from unauthorized access.                       |
+| **7. Networking**                | Enables communication between devices and across networks.                                    |
+
+
+
+
+when ever our system starts 
+
+
+sabse pehle os ram mein load ho jata hai and cpu ka bhi use krta hai  , then os help krta hai new application and processes ko memory and cpu allocation mein 
+os need both ram and cpu 
+
+✅ If Your CPU Has a Single Core, How Do the OS and Processes Run?
+🔹 Short Answer:
+They run one at a time, and the Operating System uses context switching to rapidly alternate between itself and other processes on the single CPU core.
+
+
+
+✅ What is Context Switching in an Operating System?
+Context Switching is the process by which the CPU switches from running one process (or thread) to another. It's essential for multitasking, especially on systems with a single-core CPU, where only one process can run at a time.
+
+basicaly , 1 process mein 1 core of cpu mein bahutbaar in out krti h 
+boht kam kam time ke liye but bahut jyada baar cpu mein jati aati h and instruction execute krti h 
+so that it looks like multi tasking 
+multiple app ek core mein aise hi run krte hai 
+
+
+
+exact detail mien next page mein padege
+
+
+
+
+✅ What is a Process in an Operating System?
+A process is an instance of a program that is being executed
+
+jab a program or application run rne lgta hai 
+it need memoery for its var , and other instant needed data 
+and it need cpu for execution of instruction written in program 
+
+process need both cpu and memory for execution 
+
+any rask we do in comp is a collection of so many processes 

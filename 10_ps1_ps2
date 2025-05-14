@@ -1,0 +1,22 @@
+wcho $PS1  $PS2
+
+in ps1 we have prompt of terminal that we see adarsh@terminal~ like 
+
+in ps2 we have > ==> this symbol we see wheb termianl return something to us 
+
+
+we can mdify it 
+
+temporary 
+
+    PS1=new val
+
+    PS2=newwsysmbol
+
+
+resaasignment of var 
+
+but upon closing terminal var val , refresed 
+
+
+we can do it ermananetly in next file 

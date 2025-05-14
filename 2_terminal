@@ -1,0 +1,33 @@
+cli interface 
+
+input ==> commands 
+
+terminal tells system resources to do some task , 
+
+task is in command 
+
+basically , jo kaam hum gui se kr rhe , wo sare and advance task ko cmd ki help se krna 
+
+
+
+terminal have diff shells , 
+
+cmd prompt 
+powershell
+
+in linux it is called bash shell
+
+
+
+
+
+linux bash shell is most powerful in context with scripting , we need to learn this 
+
+
+
+backend jahan deployed hoga 
+wahan hum terminal , ssh ke through remote access lete hain , like we do in aws and do further update and management of our backend application
+
+
+in windows we dont have bash shell
+for that install git bash and select git bash in vs code terminal options 

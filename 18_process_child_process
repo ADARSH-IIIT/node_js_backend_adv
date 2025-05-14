@@ -1,0 +1,44 @@
+
+
+termianl ===> el preocess hai 
+now jab hum terminal se koi aur app launch kiye toh 
+
+
+wo new app , ab terminal ka child process ho gya 
+
+
+
+
+jab hum koi app like koi game file explorer se launch krte hai 
+wo game ==> ek process hai
+uska parent process , file explorer ho jayega 
+
+
+
+har ek process ka prarent proces hotah 
+
+
+haer process ki ek id hai 
+uske parent ki id etc etc sab proer data hota h 
+
+
+
+
+
+
+
+when we launch node or  node a.js from terminal 
+
+node ===> child process 
+terminal parent process 
+
+
+now if we want to see all indo of that node js process 
+we can do clg(  process )
+
+
+process object ke paass 
+
+node app.js ====> app ,js ka code cpu and memory mein jayeg edxecute hoa 
+ise hi process bol rhe 
+iss process ka satadata process naam ke object mein save rahega 

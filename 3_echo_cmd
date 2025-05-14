@@ -1,0 +1,36 @@
+echo adarsh 
+says back adarsh 
+
+
+
+
+echo adarsh is good boy > this.txt
+save this contetnt in adarsh.txt 
+
+we can place contetn in "----" , with out it , everything works fine 
+
+
+
+we can also create var and print it using echo 
+
+num = 50
+echo this is number $num
+
+use dollar before  
+
+//////////////////////////////////////////   vimppppppppppppppp        how to declare variable /////////////////////////////////////////////////////////
+
+num=50 ok
+num = 50
+agar ek bhi space diya , it recogininse it as commad like num =50 , num= 50 
+make sure no space is there 
+
+
+num1=50 num2=40
+echo $(( num1 + num2 ))
+
+note for operation of two or more var (()) double bracket is must 
+
+this is called scripting 
+
+multiple command in one line seperate by ;

@@ -1,0 +1,36 @@
+touch a.txt         create a file 
+mkdir     m   make a folder named m 
+
+mkdir a b c ===> 3 folder a b and c 
+touch a.txt b.txt c.txt ====> multiple files 
+
+
+
+
+copy 
+cp  fil.txt  /abc
+
+file.txt get copied insode /abc folder 
+/abc mein /abc/file.txt aa jayegi
+
+
+cp   filelovation or folder   folderloaction 
+
+
+
+mv fileor folder    folderloacation
+
+for rename any file 
+
+
+mv a.txt b.txt
+
+
+
+rm file.txt
+
+rmdir folder  but foldr hould be empty
+
+if non empty
+
+rm -rf foldername 

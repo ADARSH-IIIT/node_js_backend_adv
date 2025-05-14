@@ -1,0 +1,26 @@
+in ssh terminal we dont have vscode , we have to write and edit files in terminal itself 
+
+
+
+
+cat file.js    ///   read and pritn file conttn in teminal 
+
+
+to pus ha ny content in file 
+
+echo your contet her > file.txt 
+
+
+for proper editing we can use nano and vim editor 
+
+nano
+
+nano first.txt
+
+
+
+vim
+
+vi file.txt
+
+

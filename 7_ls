@@ -1,0 +1,8 @@
+ls ==> list all not hidden folder file both
+
+
+ls -a , inculde hdden and not hidden file folder also 
+
+
+
+ls -la ======> list all file with there read write etc permissions 

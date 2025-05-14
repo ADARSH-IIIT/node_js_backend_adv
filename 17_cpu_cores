@@ -1,0 +1,106 @@
+
+
+basically cpu , that chip 
+
+that do alu 
+kya krna hai instruction like hote h like mov etc etc in assembly lang 
+all concept of embeeded system design 
+
+how cpu , ram etc communicatie how things work 
+
+
+
+
+
+
+rule 
+
+1 cpu mein , 1 time pe sirf 1 instruction , more over 1 process , more over 1 application run kr sakti hai 
+
+
+cores ====> yehi wo cheez hai jo instruction / process run krti hai 
+
+
+eg
+1 cpu ===> 8 cores 
+===> 8 diff  process/application/instruvtion can run at a time inthose 8 cores 
+but har ek core mein ek time pe sirf ek process run kregi 
+
+
+
+
+1 time pe 1 core mien ek process ======> concurrency 
+
+1 time pe multiple core pe diff process ka run krna ==> parallelism 
+
+
+
+Concurrency
+Multiple processes (or threads) are in progress at the same time, but not actually running at the exact same instant — the CPU switches rapidly between them.	
+On a single-core CPU, you open a browser and a music player — the OS switches between them so fast you feel both are running.
+
+
+
+Parallelism	
+Multiple processes (or threads) are literally running at the same exact time on multiple CPU cores.	
+On a quad-core CPU, one core plays music while another runs your browser — both actually execute simultaneously.
+
+
+
+cores are main thing 
+
+
+mre no of cores more no of application can run ata time 
+
+
+
+
+
+
+
+
+
+
+let say i have 10 application running , each take 10 mins to get completely executed 
+
+case 1 
+single core cpu
+with the help o context switching , all appliation are running paralley , but one app is running in cpu only at a time 
+total time for execution of all process ====> 10*10 = 100 minutes 
+
+
+
+case 2 
+4 core cpu
+now we have 4 core 
+means at any point of time 
+we have 4 process running in a cpu 
+4 process running ata instant in cpu 
+
+it means time reduces by 4 time 
+25 min only 
+
+yahan bhi context switching hogi , because no of core < total running process 
+but as we have more core , more process run a time 
+
+
+
+
+
+
+
+
+there is 2 thing 
+context switching ke karan aisa lgta hai ki , multi process run kr rhi 
+wo kr bhi rhi hoti hain , but ek single instance of time mein cpu ke 1 core mein sirf el process hai 
+
+
+multi core 
+means now multiple process running at same time in diff cores 
+
+
+
+
+
+
+

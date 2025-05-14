@@ -1,0 +1,44 @@
+greet() {
+  echo "Hello, $1  $2  $3"
+}
+
+
+
+how to call in terminal 
+
+greet firstvar secondvar thirdvar
+
+
+
+like this 
+
+
+
+openvsc(){
+  
+    code $1 
+
+}
+
+when we call 
+
+openvsc ./Desktop
+
+in terminal 
+
+a function get called 
+internally in terminal 
+we are calling 
+code ./Desktop
+
+so desktop get opened in vscode 
+
+basically its like var or function only 
+
+
+bas terminal mein abstraction ho gya 
+
+usi moment , us terminal mein uss instant pe internlly yeh function call ho jayega 
+
+thaat why we dont need absoulte path 
+because har cheez us momnet us terminal mein ho rha 

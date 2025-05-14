@@ -1,0 +1,19 @@
+pwd curretn directory
+
+ls list folder and file
+
+
+whoami    =======> current user name who is acccesing terminal 
+
+sudo su 
+whoami ===> root , npw i am root user 
+
+
+cd chabge direcotey
+
+cd //location
+
+cd ..   one step back 
+
+
+cd /   main home directiry 

@@ -1,0 +1,119 @@
+
+
+
+case 
+
+we have 4 core cpu 
+
+
+i am running a single process in my system thattakes 10 mint to get executed 
+
+
+
+wo process ==> cpu mien jayegi 
+ 1 core choose kr legi 
+and no of process < cores ==>  no need of context switching 
+
+wo process ek core mein 10 mint tk execute hofi 
+
+
+total time taken ==> 10 mint 
+
+
+
+SO if we want we can use all those 4 cores by 1 process 
+
+
+for this 
+
+
+1 process 
+proces kabhi cpu men nhi jati 
+
+1 process ====> by default there is a thread called main thread 
+
+then we create other threads 
+
+threads and child process etc are diff thing 
+
+
+✅ What is a Thread?
+A thread is the smallest unit of execution within a process.
+
+🔹 Key Points:
+Every process has at least one thread — the main thread.
+
+A process can create multiple threads (called multithreading).
+
+All threads within the same process share the same memory space.
+
+
+
+| Feature           | **Thread**                                      | **Subprocess (Process)**                                 |
+| ----------------- | ----------------------------------------------- | -------------------------------------------------------- |
+| **Memory**        | Shared with parent thread                       | Has its own separate memory                              |
+| **Overhead**      | Lightweight (faster to create and switch)       | Heavyweight (more resource-intensive)                    |
+| **Communication** | Easy (shared memory)                            | Complex (needs IPC: pipes, sockets, etc.)                |
+| **Crash Impact**  | One thread crashing can crash the whole process | Separate process crash usually doesn't affect the parent |
+| **Example**       | Browser tab threads, background tasks           | Running `ls` or `ping` as a subprocess in a script       |
+
+
+🧠 Analogy
+A process is like a house.
+
+Threads are like people in the house — they share rooms (memory), can work together, and use the same kitchen (resources).
+
+A subprocess is like a separate house — it has its own rooms and doesn’t share much with others.
+
+
+
+
+
+so what we do is we create diff threads from same process 
+
+and each threads on diff core , and it reduces time 
+
+
+
+
+
+
+
+let say we have total 7 threads , main + 7 == 8 threads in total 
+
+4 cores 
+
+
+now 8 threads will compete for 4 cores , here context switching will occour 
+
+
+eg
+    
+
+const { Worker } = require("worker_threads");
+
+clg(1) 
+
+new Worker("./a.js");  /// after one min print a
+new Worker("./b.js");  //// after 30 sec print b
+new Worker("./c.js");  /// after 10 sec print c 
+
+clg(2)
+
+
+output  1 2 c a b 
+
+main thread consist of loading and creation of 3 threads , printing 1 2 
+then sare thread parelly diff cores mein run honge and jaise jaise cheeze hoti jayegi new variables , dataram mein load ho jayega and jo bhi output hoga mil jayega 
+
+a b c file ke andar ka data random time jitna use lageta execute mein hne jo ki diff process , context switchingetc pe depend krega , us hisab se hoga 
+
+at the end , all threads get destroyed and single main  thread remains only
+
+
+we will see this topic in detail in future 
+
+
+
+
+

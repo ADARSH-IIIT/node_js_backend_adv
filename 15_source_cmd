@@ -1,0 +1,28 @@
+it has 2 work 
+
+
+
+1st
+we write 
+source new_bashfile_absolute_location.bashrc  
+in outr ,bashrc of /home/adarsh 
+when ever termianl opens this /home/adarsh/.bashrc file get automatically loaded 
+
+if in that file we write    source new.bashrc , it loads this file in that termianl also internally 
+
+
+
+
+2nd
+let say we have updated our any of bashrc file .bashrc or any file linked with .bashrc 
+on the spot terminal is not updated 
+we need to kill and reat terminal 
+to avoid this 
+
+we can run 
+
+source .bashrc 
+
+or source new.bashrc
+
+this will refresh the terminaal internally 

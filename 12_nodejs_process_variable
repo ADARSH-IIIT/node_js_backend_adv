@@ -1,0 +1,24 @@
+processs ===> smalest unit of a program 
+process si a progrm 
+
+
+any running app ==> program==> is called process 
+jo ram mein memoery mangta h 'jo cpu mein execute hota h is caleld process 
+
+
+
+
+when we run any js file in node 
+it is also a process 
+bascillay that node a.js 
+is a process that runs js file in cpu using ram etc etc 
+
+
+is process ki jo bhi info h 
+process of running this js file in cpu and ram is stored in process var 
+
+console.log(  process )
+
+
+process var , iss program ke cpu mein run hone le time ki sari info 
+process id , parent id and so many other things klike env var , argumants and o many things rakhta hai

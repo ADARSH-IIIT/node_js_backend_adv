@@ -1,0 +1,26 @@
+🔹 Temporary Alias
+Defined in the current shell session only:
+alias openvs='code .'
+
+
+
+how to run 
+instead of code .
+we can run openvs
+internally openvs get replaced by code . in that terminal 
+means in that terminal , instead of openvs , code . is running 
+
+
+
+how to make it permanat 
+
+method write thos alias in home directory .bashrc file that loads when ever a terminal open 
+when terimanl opens it loads bashrc file pg /home/adarsh the home folder , as this terminal is for that logged in user whose cintrol start from home folder $HOME var holds home folder location
+
+
+to make alias permanart in /home/adarsh .bashrc file write this command
+
+
+or create a new bashrc file in system anywhere , weite alais command in it 
+
+write  source filelocation command in home folder bashrc so that this file get also loaded in terminal load 
